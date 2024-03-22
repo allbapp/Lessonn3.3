@@ -1,6 +1,5 @@
 import pygame
 import random
-
 pygame.init()
 
 SCREEN_WIDTH = 800
@@ -19,7 +18,7 @@ target_height = 80
 target_x = random.randint(0, SCREEN_WIDTH - target_width)
 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
 
-color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+
 
 # Инициализация счета
 score = 0
@@ -50,4 +49,3 @@ while running:
     show_score()  # Отображаем текущий счет
     pygame.display.update()
 
-pygame.quit()
